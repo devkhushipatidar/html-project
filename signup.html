@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+<head>
+    <title>Student Registration Form</title>
+</head>
+<body>
+    <h1 align="center">Student Registration Form</h1>
+
+    <form>
+
+        <fieldset>
+            <legend><b>Personal Information</b></legend>
+
+            <label>Full Name:</label>
+            <input type="text" name="name" placeholder="Enter your name">
+            <br><br>
+
+            <label>Father's Name:</label>
+            <input type="text" name="fathername" placeholder="Enter father's name">
+            <br><br>
+
+            <label>Date of Birth:</label>
+            <input type="date" name="dob">
+            <br><br>
+
+            <label>Gender:</label>
+            <input type="radio" name="gender" value="male"> Male
+            <input type="radio" name="gender" value="female"> Female
+            <input type="radio" name="gender" value="other"> Other
+            <br><br>
+
+            <label>Email:</label>
+            <input type="email" name="email" placeholder="Enter email">
+            <br><br>
+
+            <label>Mobile Number:</label>
+            <input type="tel" name="mobile" placeholder="Enter mobile number">
+            <br><br>
+
+        </fieldset>
+
+        <br>
+
+        <fieldset>
+            <legend><b>Academic Information</b></legend>
+
+            <label>Course:</label>
+            <select name="course">
+                <option>Select Course</option>
+                <option>B.Tech</option>
+                <option>BCA</option>
+                <option>B.Sc</option>
+                <option>BBA</option>
+                <option>MCA</option>
+            </select>
+            <br><br>
+
+            <label>Branch:</label>
+            <select name="branch">
+                <option>Select Branch</option>
+                <option>Computer Science</option>
+                <option>Information Technology</option>
+                <option>Electronics</option>
+                <option>Mechanical</option>
+                <option>Civil</option>
+            </select>
+            <br><br>
+
+            <label>Semester:</label>
+            <input type="number" name="semester" min="1" max="8">
+            <br><br>
+
+            <label>Student ID:</label>
+            <input type="text" name="studentid" placeholder="Enter Student ID">
+            <br><br>
+
+        </fieldset>
+
+        <br>
+
+        <fieldset>
+            <legend><b>Address Information</b></legend>
+
+            <label>Address:</label><br>
+            <textarea name="address" rows="4" cols="40"
+                placeholder="Enter your address"></textarea>
+            <br><br>
+
+            <label>City:</label>
+            <input type="text" name="city">
+            <br><br>
+
+            <label>State:</label>
+            <input type="text" name="state">
+            <br><br>
+
+            <label>Pin Code:</label>
+            <input type="text" name="pincode">
+            <br><br>
+
+        </fieldset>
+
+        <br>
+
+        <fieldset>
+            <legend><b>Other Information</b></legend>
+
+            <label>Hobbies:</label>
+            <input type="checkbox" name="hobby" value="reading"> Reading
+            <input type="checkbox" name="hobby" value="sports"> Sports
+            <input type="checkbox" name="hobby" value="music"> Music
+            <input type="checkbox" name="hobby" value="coding"> Coding
+            <br><br>
+
+            <label>Upload Photo:</label>
+            <input type="file" name="photo">
+            <br><br>
+
+            <label>Password:</label>
+            <input type="password" name="password" placeholder="Enter password">
+            <br><br>
+
+        </fieldset>
+
+        <br>
+
+        <input type="submit" value="Register">
+        <input type="reset" value="Reset">
+
+    </form>
+
+</body>
+</html>
